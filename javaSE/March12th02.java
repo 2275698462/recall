@@ -1,0 +1,13 @@
+public class March12th02 {
+	public static void main(String[] args) {
+		//化繁为简
+		//1、先输出0-5
+		//2、后面的+是5-i
+		//先死后活
+		// 1、5替换n
+		int n = 5;
+		for(int i = 0; i <= n; i++) {
+			System.out.println(i + "+" + (n - i) + "=" + n);
+		}
+	}
+}
